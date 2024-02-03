@@ -3,36 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index page</title>
-    <link rel="icon" type="imges/" href="imges/Screenshot 2024-01-28 074518.png">
+    <title>home page</title>
     <style>
         *{
-            margin: 0;
-            padding: 0;
-        }
-       .link1{
-        margin-left: 4rem;
-        text-decoration: none;
-        font-size: 25px;
-        color: black;
-        
-       }
-       a:hover{
-        background-color: brown ;
-        border-radius: 1rem;
-        padding-left: 6px;
-        padding-right: 6px;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        color: white;
-       }
-       ul{           
-            list-style:none ;
-            font-size: 20px;
-            text-align: justify;
-            margin-left: 10%;
-        }
-        .card-container
+    margin:0;
+    padding:0;
+}
+.sharelink
+{
+    position:fixed;
+    left:0;
+    top:30%;
+    opacity: 100%;
+}
+.icon
+{
+    display: block;
+}
+.header
+{
+    width: 100%;
+    height: 7rem;
+    background-color:rgb(42, 34, 69);
+
+}
+.instname
+{
+    text-align: center;
+    color:white;
+    background-color:rgb(42, 34, 69);
+    height: 3rem;
+    font-size: 35px;
+}
+#logo
+{
+width:3rem;
+object-fit: contain;
+}
+.nav
+{
+width:inherit;
+height:4rem;
+display: flex;
+flex-wrap: wrap;
+gap: 28%;
+}
+.name-container
+{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+}
+.name
+{
+    display: inline;
+    color: #f5f5f5;
+    font-size:x-large;
+    font-weight: bold;
+}
+.links
+{
+    display: flex;
+    font-size: x-large;
+    align-items: center;
+    justify-content:flex-end;
+    padding-bottom: 0;
+}
+
+.links li
+{display: inline;}
+.c-image
+{
+    margin-top: 0;
+}
+.ar
+{
+text-decoration: none;
+padding: 0.8rem;
+margin: 3rem;
+color: rgb(247, 241, 241);
+font-family: 'Times New Roman', Times, serif;
+}
+.ar:hover{
+        color: rgb(1, 29, 20);
+        background-color: rgb(162, 14, 122);
+        border-radius: 20rem;
+      }  
+.heading
+{
+padding: 1.5rem;
+font-size: 32px;
+text-align: center;
+color:#080b2a;
+}
+.vision
+{
+font-size: 20px;
+margin-left: 2rem;
+margin-right: 2rem;
+text-align: justify;
+}
+.card-container
 {
 width:95%;
 padding-left: 2rem ;
@@ -84,32 +155,9 @@ display: -webkit-box;
     overflow: hidden; 
     text-overflow: ellipsis; 
 }
-.card-container2
-{
-width:95%;
-padding-left: 2rem ;
-padding-right: 2rem ;
-height: fit-content;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-}
-.card2
-{
-width:15rem;
-height: 20rem;
-font-size: 20px;
-transition: 0.5s;
-padding-bottom: 1rem;
-box-shadow: 2px 2px 2px 2px gainsboro;
-
-}
-hr{
-    border: 2px solid gray;
-}
 .footer
 {margin-top: 2rem;
-    height: 8rem;
+    height: 4rem;
      background-color:#080b2a;
 }
 .cc{
@@ -117,184 +165,69 @@ margin-top: 1rem;
 background-color: #080b2a;
 text-align: center;
 color:#f5f5f5;
-font-size: 20px;
 }
-</style>
+    </style>
 </head>
 <body>
-
-    <hr style="border: 12px solid rgb(2, 2, 51);">
-    <img src="imges/Screenshot 2024-01-26 132655.png" alt="" style="width: 8rem; height: 5rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <p style="display: inline; font-size: 25px; color: rgb(2, 2, 55); padding-bottom: 2rem;" >VITS SATNA</p>
-                 <a href="" class="link1">Home</a>
-                <a href="" class="link1">About us</a>
-                <a href="" class="link1">Question paper</a>
-                <a href="" class="link1">Slybus</a>
-                <a href="" class="link1">Department </a>
-                <a href="" class="link1">placement</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src="imges/Screenshot 2024-01-28 074518.png" alt="" style="width: 5rem; height: 4rem;">
-   <br><br>
-   <img src="imges/Screenshot (212).png" alt="" style="width: 100%; height: 30rem;">
-   <br>
-   <br>
-   <h2 style="text-align: center;font-weight: bold;">VISION</h2>
-   <br>
-   <p style="margin-left: 10%; font-size: 20px;">To catalyze transformation of our students into confident and responsible professionals, endowed with up to date knowledge and expertise in their chosen disciplines, excellent communication skills and sensitive souls who will be assets to their families, community, nation and humanity at large.</p>
-   <br>
-   <h2 style="text-align: center;font-weight: bold;">MISION</h2>
-   <br>
-   <ul>
-    <li>To assemble qualified, committed and dedicated faculty.</li>
-    <li>To create an environment promoting all round excellence.</li>
-    <li>To develop the capability to assimilate latest advances in science and technology in the education process.</li>
-    <li>To develop framework of ethics, values and morals in the faculty and students.</li>
-    <li>To inculcate professionalism, team work, innovation and entrepreneurship among the students.</li>
-    <li>To play the role of catalyst in the economic transformation of the region.</li>
-</ul>
-<br><br> 
-     <h2 style="text-align: center;">VITS FACALITIES</h2>
-       <BR></BR>
-       <div class="card-container">
-        <div class="card">
-            <img src="imges/Screenshot 2024-01-26 152150.png" >
-            <br><br>
-                <h5 class="text">LABORATORIES</h5>
-                <br>
-                <p class="center">The Seminar and Conference Halls act as platforms for students, faculty and corporate personalities for regular interfaces, conferences and other events. They are ready with all the electronic equipment and training aids essential for carrying out high profile academic and business events</p>
- 
-        </div>
-        <div class="card">
-            <img src="imges/Screenshot 2024-01-26 152206.png">
-            <br><br>
-            <h5 class="text">SEMINAR HALLS & CONFERENCE HALLS</h5>
-            <br>
-            <p class="center">VITS believes that recreational activities are as important as academic excellence. With this view, VITS has provided for modern Gym, sports and recreation facilities for all its students. For boys and girls we have indoor games facilities including table tennis, carrom, chess, etc. while outdoor facilities include basketball, volleyball & lawn tennis courts and cricket & other grounds.
-
-            </p>
-   
-        </div>
-        <div class="card" >
-            <img src="imges/Screenshot 2024-01-26 152229.png">
-            <br><br>
-            <h5 class="text">WORKSHOP</h5>
-            <br>
-            <p class="center">VITS has got a workshop for its engineering students with 10,000 sq.ft built-up area. The workshop contains all the necessary machines, tools & equipments including Universal Testing Machine, Lathe Machines, Drilling Machines, etc..
-                </p>
-        </div>
+    <div class="sharelink">
+        <img class="icon" src="images/Screenshot (194).png" alt="" width="30px" height="30px">
+        <img class="icon" src="images/Screenshot (195).png" alt="" width="30px" height="30px">
+        <img class="icon" src="images/Screenshot (196).png" alt="" width="30px" height="30px">
     </div>
+    <header class="header">
+        <h1 class="instname">VINDHYA GROUP OF INSTITUTIONS</h1>
+            <nav class="nav">
+                <div class="name-container">
+                &nbsp;&nbsp;<a href="index.html" class="logo"><img id="logo" src="images/Screenshot (229).png" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp; 
+                <p class="name">VITS&nbsp;</p>
+                <p class="name">VIMS&nbsp;</p>
+                <p class="name">VIMR&nbsp;</p>
+                </div>
+            <ul class="links">
+                 <li><a class="ar" href="index.html" style="font-size: 22px;">HOME</a></li>
+                 <li><a class="ar" href="couse.html"style="font-size: 22px;" >COURSE</a></li>
+                 <li><a class="ar" href="department.html"style="font-size: 22px;" >QUESTION PAPER</a></li>
+            </ul>
+            </nav>
+        
+    </header>
+   <br>
+    <img src="images/WhatsApp Image 2023-12-10 at 20.50.55_facf66fd.jpg" alt="Download" width="100%" height="450">
+   
+    <h5 class="heading">Our Vision</h5>
+    <p class="vision">The Vindhya Institute of Management and Sciences (VIMS), is a young, innovative, and enterprising college that has become the leading institution for undergraduate programs in management, commerce, and computer application. Unlike conventional academic institutes.</p>
+    <h5 class="heading">Our Leaders</h5>
     <div class="card-container">
         <div class="card">
-            <img src="imges/Screenshot 2024-01-26 152250.png" >
+            <img src="images/Screenshot (224).png" >
             <br><br>
-                <h5 class="text">SPORTS & REACTIONS</h5>
+                <h5 class="text">Mr. Sunil Senani<br> (Chairman)</h5>
                 <br>
-                <p class="center">VITS believes that recreational activities are as important as academic excellence. With this view, VITS has provided for modern Gym, sports and recreation facilities for all its students. For boys and girls we have indoor games facilities including table tennis, carrom, chess, etc. while outdoor facilities include basketball, volleyball & lawn tennis courts and cricket & other grounds.</p>
+                <p class="center">Today education is synonymous with examination, employment and empowerment; we believe it should also stand for emancipation, ennoblement and evolution. It should not be only with stuffing of facts in students mind but help them in actualizing their potential. VITS believes in raising level of all students on a continuous basis. They are made to compete with themselves. They are encouraged to think, to innovate and shoulder responsibility for their actions. We want to make them proactive individuals who are constantly and relentlessly adding value to their environment.</p>
  
         </div>
         <div class="card">
-            <img src="imges/Screenshot 2024-01-26 152303.png">
+            <img src="images/Screenshot (228).png">
             <br><br>
-            <h5 class="text">CAFETERIA</h5>
+            <h5 class="text">Dr. K.P. Tripathi<br> (Principal VIMS)</h5>
             <br>
-            <p class="center">VITS cafeteria is among one of the best in educational institutions in the region. Operated by professionals, the cafeteria presents a conductive atmosphere for camaraderie. Care is taken to ensure that hygienic and healthy meals are available along with an extensive menu to cater to all tastes
-            </p>
+            <p class="center">I promise that VIMS will work towards developing smart managers, entrepreneurs and IT Professionals thus contributing its bit to the development of our society and nation. All activities carried out by VIMS will focus primarily on grooming the students and enhancing their academic and inter personal skill sets and finally making them a good human being. We at VIMS have three different clubs i.e. Commerce Club, IT Club and Science Club performing various activities like Debate, Extempore, Poster Presentation, Power point Presentation etc.</p>
    
         </div>
         <div class="card" >
-            <img src="imges/Screenshot 2024-01-26 152324.png">
+            <img src="images/Screenshot (255).png">
             <br><br>
-            <h5 class="text">HEALTH & WELLNESS</h5>
+            <h5 class="text">P.K Sukhla <br>  Principal VITS</h5>
             <br>
-            <p class="center">Many health camps were organized at VITS Satna on february 2021 by students under the guidence of faculty at VITS.
-
-                The event started with the warm welcome of the doctors and their team from Satna who gave their precious time and efforts in organizing the camps for blood donation, eye checkup, dental checkup and whole body checkup.
+            <p class="center">VITS for the last 18 years has not spared any effort in playing a catalyst's role in fulfilling the aspirations of its students. It gives us immense pleasure to hear from our alumni about their continuing journey of success which they have achieved through their strong foundation.
+                    VITS nurtures the individual talent and shapes it according to the individual needs. In the last few years, the institute has employed some unprecedented experiments that all move in the direction of the welfare of our students. With our futuristic vision, we wish that our students map greater scales of achievements and be proud for what they become in their lives.
                 </p>
         </div>
     </div>
-     <br><br>
-        <h3 style="text-align: center; font-size: 23px;">OUR STRENGTHS</h3>
+      <footer class="footer">
         <br>
-        <p style="text-align: center; font-size: 20px;">
-            "Studying at Vindhya campus offers you the opportunity to undertake a cutting edge
-             degree that will excite you and help you realise your career aspirations. These are some of the high-lights
-             as to why should you choose us."
-        </p>
-        <br>
-        <h4 style="text-align: center; font-size: 23px;">WHY CHOESE US</h4>
-        <br><br>
-        <div class="card-container2">
-            <div class="card2">
-                <br><br>
-                    <h5 class="text">Practical Approach</h5>
-                    <br>
-                    <hr>
-                    <br>
-                    <p class="center">Vindhya aims to produce genuine, responsible, and well-equipped human beings, and thus emphasizes on practical learning as well as developing theoretical knowledge base. This, practical approach ensures that students are ready to take on the industry challenges with ease and do well in the post college lives.</p>
-     
-            </div>
-            <div class="card2">
-                <br><br>
-                <h5 class="text">Industry Interaction</h5>
-                <br>
-                <hr>
-                <br>
-                <p class="center">Vindhya regularly organizes industrial visits for students and even encourages industry experts to visit campus and thus, our students are industry-ready.</p>
-            </div>
-            <div class="card2" >
-                <br><br>
-                <h5 class="text">Academically Focused</h5>
-                <br>
-                <hr>
-                <br>
-                <p class="center">Vindhya is dedicated to excellence in the delivery of education and has a well-earned reputation for providing exceptional education delivered by dedicated professionals with practical and relevant industry experience. Our academics are supported by teaching methodologies that maintain high levels of satisfaction among graduates and employers.
-                    </p>
-            </div>
-        </div>
-        <br>
-        <br>
-        <div class="card-container2">
-            <div class="card2">
-                <br><br>
-                    <h5 class="text">Excellent Infrastructure</h5>
-                    <br>
-                    <hr>
-                    <br>
-                    <p class="center">Spread in around 25 acres, Vindhya campus is a vibrant place full of all basic amenities in a state-of-art infrastructure. The lush green campus and its landscaping matches the best in the country.</p>
-            </div>
-            <div class="card2">
-                <br><br>
-                <h5 class="text">Developing The “total” You</h5>
-                <br>
-                <hr>
-                <br>
-                <p class="center">Vindhya students are placed across the globe and have been bringing laurels to all concerned.
-                    From multinational companies in India, to the big business houses in US, our students have 
-                   succeeded in getting good placement opportunities. This is a definite result of the hard work
-                    put in by all concerned in the Institution..
-                </p>
-            </div>
-            <div class="card2" >
-                <br><br>
-                <h5 class="text">The Best of Both Worlds</h5>
-                <br>
-                <hr>
-                <br>
-                <p class="center">At Vindhya you can undertake a cutting edge degree while enjoying a great social life. Our campuses are ideally located, enabling access to a range of activities in the regions. You can join cultural or sporting groups, and can compete as well as organize various activities. Lower costs of living, unpolluted air and an increased sense of safety are just some of the advantages of living in Satna.</p>
-            </div>
-            <div class="card2" >
-                <br><br>
-                <h5 class="text">Developing Leaders</h5>
-                <br>
-                <hr>
-                <br>
-                <p class="center">Vindhya offers a range of opportunities to help improve your leadership skills and all the co-curricular activities are driven by students themselves.</p>
-            </div>
-        </div>
-        <footer class="footer">
-            <br>
-             <p class="cc">Copyright&nbsp; 	&#xA9; &nbsp;VITS</p>
-             <br>
-             <p style="text-align: center;color: #f5f5f5;font-size: 20px;">Vindhya Institute of Technology and Science Karhi Road, Amoudha, Satna, Madhya Pradesh , 485002</p>
-        </footer>
+         <p class="cc">Copyright&nbsp; 	&#xA9; &nbsp;VITS</p>
+    </footer>
+
 </body>
 </html>
